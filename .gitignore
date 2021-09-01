@@ -1,0 +1,11 @@
+# Driver
+chromedriver.exe
+
+# 測試資料 (testing file)
+test.py
+
+# 個人帳密 (personal account)
+personal_account.txt
+
+# 歷史備份檔 (backup file)
+portfolio_record_archieve/
