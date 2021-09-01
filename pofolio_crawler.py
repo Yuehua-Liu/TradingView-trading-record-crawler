@@ -111,9 +111,9 @@ df = df[0]
 # print(df[df['時間'] > '2021-08-31'])
 
 # 匯出 CSV 檔案 (export to csv)
-# df.to_csv(f'./portfolio_record_archieve/portfolio_record_{datetime.today().date()}.csv', index=False)
+df.to_csv(f'./portfolio_record_archieve/portfolio_record_{datetime.today().date()}.csv', index=False)
 
 # 匯出 XLSX 檔案 (export to xlsx)
-df.to_excel(f'./portfolio_record_archieve/portfolio_record_{datetime.today().date()}.xlsx', index=False)
+# df.to_excel(f'./portfolio_record_archieve/portfolio_record_{datetime.today().date()}.xlsx', index=False)
 
 
